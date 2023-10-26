@@ -2,10 +2,11 @@
 
 This is the official website for LENAJ
 
+## Designs by Álvaro Llanos
+
 ## Codebase
 
 Our codebase is open source and available on GitHub. You can easily access it by clicking on the following link:
-
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/bayt-al-hiqma/lenaj.com?quickstart=1)
 
 ## Contributing
