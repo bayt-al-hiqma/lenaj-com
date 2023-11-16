@@ -1,0 +1,90 @@
+html, body, #__next {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*Global Style Rules here*/
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.fst-italic {
+    font-style: italic;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.mt-40 {
+    margin-top: 40px !important;
+}
+
+.container-fluid .header-icons {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.px-5 {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+}
+.text-end {
+    text-align: right !important;
+}
+.text-start {
+    text-align: left !important;
+}
+.p-0 {
+    padding: 0 !important;
+}
+.m-0 {
+    margin: 0 !important;
+}
+
+
+/*Media Queries (if required)*/
+@media only screen and (min-width: 1024px) {
+    .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1140px;
+    }
+    .col-lg, .col-lg-auto, .col-md, .col-md-auto, .col-sm, .col-sm-auto, .col-xl, .col-xl-auto, .col-xxl {
+        max-width: 100%;
+        flex-basis: 0;
+        flex-grow: 1;
+        min-width: 0;
+    }
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 720px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 540px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 100%;
+    }
+}
+

@@ -1,0 +1,45 @@
+.footer {
+    /* common styles for the Wrapper div */
+}
+
+.wa-ft-lg {
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+
+.wa-logo-lg,
+.ft-logo-lg {
+    width: 75px;
+}
+
+.wa-ft-lg .wa-logo-lg {
+    margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .wa-ft-lg {
+        position: absolute;
+        top: 250px;
+        left: 50px;
+    }
+    .wa-logo-lg,
+    .ft-logo-lg {
+      width: 60px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .wa-ft-sm {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .wa-logo-sm,
+    .ft-logo-sm {
+        display: block;
+        width: 50px;
+    }
+    .wa-ft-lg {
+        display: none;
+    }
+}

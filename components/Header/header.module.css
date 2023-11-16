@@ -1,0 +1,27 @@
+
+.header {
+    /* Assuming general header styling */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #FFF; /* Adjust as needed */
+}
+
+.logo {
+    /* Styles for the logo */
+    width: 100px; /* Adjust as needed */
+    height: 50px;
+}
+
+.contactInfo {
+    /* Styles for contact information */
+    font-weight: 500; /* Adjust according to styles.css */
+    color: #000; /* Adjust as needed */
+}
+
+.socialMedia {
+    /* Styles for social media icons */
+    display: flex;
+    align-items: center;
+}
